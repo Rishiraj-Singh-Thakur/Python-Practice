@@ -11,5 +11,5 @@ print(f"{str1} {str2}")
 
 text = "Coding in Python is fun"
 
-print(text.replace("fun", "awesome"))
+text = text.replace("fun", "awesome")
 print(text.upper())
