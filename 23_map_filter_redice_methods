@@ -1,0 +1,26 @@
+nums = [2,4,3,5,6,4,5]
+# square of all element in list
+def mut(x):
+        return x*x
+
+sum = list(map(mut , nums))   # map method
+print(sum)
+
+
+# filter method
+
+def gretter(x):
+        return x>5
+
+list = list(filter(gretter , nums))
+print (list)
+
+
+#reduce method
+from functools import reduce
+# print sum of list
+def sum (a,b):
+        return a+b
+
+count = reduce(sum , nums)
+print(count)
